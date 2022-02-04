@@ -1,5 +1,6 @@
 package screen
 
+import Line_DIVIDER
 import extensions.getNotEmptyString
 
 class ShoppingHome {
@@ -25,7 +26,7 @@ class ShoppingHome {
             """
             감사합니다. 반갑습니다. $name 님
             원하시는 카테고리를 입력해 주세요.
-            ***===============================***
+            $Line_DIVIDER
         """.trimIndent()
         )
     }
